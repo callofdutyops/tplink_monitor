@@ -20,14 +20,14 @@ headers = {
     "Referer": "http://192.168.0.1/userRpm/StatusRpm.htm",
     "Accept-Encoding": "gzip, deflate",
     "Accept-Language": "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7,bg;q=0.6,la;q=0.5",
-    "Cookie": "Authorization=Basic%20YWRtaW46MTk5NDAyMTg%3D"
+    "Cookie": "Authorization=你的Authorization值"
 }
 
 statusUrl = "http://" + ip + "/userRpm/StatusRpm.htm"
 
 loginUrl = "http://" + ip + "/userRpm/WanCfgRpm_8021X.htm" \
                             "?wantype=3" \
-                            "&Ieee802_1xName=0283359820224" \
+                            "&Ieee802_1xName=你的8021x账号" \
                             "&Ieee802_1xPwd=Hello123World" \
                             "&dialMode=2" \
                             "&Login=%B5%C7+%C2%BC&IpType=1" \
