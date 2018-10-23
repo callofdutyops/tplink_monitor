@@ -2,4 +2,5 @@
 Description=Monitor the tplink router
 
 [Service]
+Type=simple
 ExecStart=/bin/bash /home/hp/scripts/tplink_monitor.sh >/dev/null 2>&1
